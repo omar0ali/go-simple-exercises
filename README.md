@@ -39,7 +39,7 @@ go run . bSearch <target> <sorted_values>
 # Using xargs with a file
 cat list.txt | xargs go run . bSearch <target>
 
-# Another without using xargs
+# Another way without using xargs
 go run . bSearch <target> <sorted numbers separated by a space>
 ```
 
