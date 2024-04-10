@@ -23,10 +23,10 @@ go run . x 2 2
 
 ### Supported Operations:
 
-Addition: + or add
-Subtraction: - or sub
-Multiplication: x or multi
-Division: / or division
+- Addition: + or add
+- Subtraction: - or sub
+- Multiplication: x or multi
+- Division: / or division
 
 ### For binary search:
 
@@ -38,6 +38,9 @@ go run . bSearch <target> <sorted_values>
 
 # Using xargs with a file
 cat list.txt | xargs go run . bSearch <target>
+
+# Another without using xargs
+go run . bSearch <target> <sorted numbers separated by a space>
 ```
 
 ### Main Function
